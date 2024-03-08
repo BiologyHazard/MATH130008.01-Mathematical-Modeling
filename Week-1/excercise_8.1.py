@@ -16,6 +16,6 @@ A_inv_should_be = 1 / 0.384 * np.array(
      [0.21, 0.27, 0.60]]
 )
 
-assert np.allclose(A_inv, A_inv_should_be, atol=1e-2)
+assert np.allclose(A_inv, A_inv_should_be, atol=1e-6)
 
 print("All tests passed!")
