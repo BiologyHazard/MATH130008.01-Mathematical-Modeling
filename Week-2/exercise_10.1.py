@@ -1,4 +1,4 @@
-from string import ascii_uppercase, ascii_lowercase
+from string import ascii_lowercase, ascii_uppercase
 
 
 def caesar_cipher(text: str, shift: int) -> str:

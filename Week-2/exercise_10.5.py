@@ -1,5 +1,6 @@
-import numpy as np
 from string import ascii_uppercase
+
+import numpy as np
 
 
 def hill_encrypt_group(text: str, key: np.ndarray) -> str:
