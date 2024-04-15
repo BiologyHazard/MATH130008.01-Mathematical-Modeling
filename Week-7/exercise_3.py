@@ -8,7 +8,7 @@ class BreakLoop(Exception):
 
 
 l_min = 4.8
-l_max = 12.8
+l_max = 12.6
 L_min = 9.0
 L_max = 10.0
 L_best = 9.5
